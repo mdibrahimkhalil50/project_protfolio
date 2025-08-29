@@ -1,0 +1,121 @@
+h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body {
+
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    margin: 0%;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding: left 5%;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: royalblue;
+
+}
+
+.half-width img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Top-banner {
+    background-image: url("allimage/top-banner.png");
+
+    background-repeat: no-repeat;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.dream-area {
+    background-image: url("allimage/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+/*
+#sz {
+    width: 100%;
+    ;
+ai ta holo id er maddome solution ata onno vabe kora jai
+}
+*/
+.modify {
+    color: blue;
+}
+
+.khalil {
+    color: black;
+    background-image: linear-gradient(pink, rgb(255, 0, 21));
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spac {
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+section {
+    height: 500px;
+
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    margin: 10px;
+    padding: 20px;
+    height: 80%;
+    border-radius: 10px;
+    background-color: azure;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    color: dimgray;
+
+}
+
+.experience {
+    background-image: url(allimage/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+
+    #exp1 {
+        border-left: 7px solid;
+        border-image: linear-gradient(to bottom, rgb(0, 221, 255), rgb(208, 0, 255));
+        border-image-slice: 1;
+
+    }
+
+    #exp2 {
+        border-left: 7px solid;
+        border-image: linear-gradient(to bottom, rgb(0, 30, 255), rgb(0, 255, 13));
+        border-image-slice: 1;
+
+    }
+
+}
